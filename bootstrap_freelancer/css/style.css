@@ -1,0 +1,30 @@
+/*COMMON*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    text-align: right;
+}
+
+.ms_main_menu li{
+    display: inline-block;
+    font-size: 20px;
+}
+.ms_main_menu a{
+    text-decoration: none;
+}
+.first{
+    background-color: lightseagreen;
+    height: 200px;
+    text-align: center;
+    padding-top: 3rem;
+}
