@@ -146,6 +146,22 @@ section{
     margin-left: 3px;
     text-transform: lowercase;
 }
+.form-control{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 20px;
+    padding: 1rem 0;
+}
+.form-control:focus{
+    border-color: transparent;
+    border-bottom: 1px solid gray;
+    box-shadow: none;
+}
+.btn_send{
+    background-color: #1abc9c;
+    color: white;
+}
 /*FOOTER*/
 footer{
     color: white;
