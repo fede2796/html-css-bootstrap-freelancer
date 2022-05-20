@@ -4,6 +4,16 @@ ul{
     margin: 0;
     padding: 0;
 }
+.bg-green{
+    background-color: lightgreen;
+    color: white;
+}
+.ms_small_container{
+    width: 65%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/*HEADER*/
 header{
     height: 100px;
     background-color: lightblue;
@@ -22,59 +32,40 @@ nav{
 .ms_main_menu a{
     text-decoration: none;
 }
-.first{
-    background-color: lightseagreen;
-    text-align: center;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+/*MAIN*/
+section{
+    padding: 2rem 0;
 }
-.second{
-    border: 1px solid black;
-    text-align: center;
+.section-header h2{
+    text-transform: uppercase;
+    font-size: 2.3rem;
 }
-.second .column{
-    border: 1px solid red;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-top:10px;
+.section-header{
+    margin-bottom: 1rem;
 }
-.about{
-    background-color: lightseagreen;
-    text-align: center;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-}
-.about .column{
-    border: 1px solid red;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-top:10px;
-}
-.info{
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-.info .column{
-    border: 1px solid red;
-    width: 70%;
-}
-.info .ms_card{
-    text-align: left;
+/*PORTFOLIO*/
+.portfolio-card{
+    background-color: blue;
+    height: 250px;
 }
 
-.infoapp{
-    background-color: pink;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+/*ABOUT CONTENT*/
+.about-content{
+    margin-bottom: 1rem;
 }
-.infoapp .column{
-    border: 1px solid red;
-    margin-right: 2rem;
-}
+
+/*FOOTER*/
 footer{
+    color: white;
+}
+.footer-top{
+    background-color: pink;
+    padding: 2rem 0;
+}
+.footer-bottom{
     background-color: violet;
+    padding: 2rem 0;
+}
+.footer-col-content{
     text-align: center;
-    height: 100px;
-    padding-top: 20px;
 }
