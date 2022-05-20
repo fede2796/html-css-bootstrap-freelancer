@@ -72,6 +72,7 @@ section{
 }
 .star i{
     color: white;
+    font-size: 20px;
 }
 .star:before{
     content: "";
@@ -79,7 +80,7 @@ section{
     width: 150px;
     height: 5px;
     margin-right:20px;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
     background-color: white;
     border-radius: 2px;
 }
@@ -89,7 +90,7 @@ section{
     width: 150px;
     height: 5px;
     margin-left: 20px;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
     background-color: white;
     border-radius: 2px;
 }
@@ -101,16 +102,50 @@ section{
     font-size: 25px;
 }
 /*PORTFOLIO*/
-.portfolio-card{
-    background-color: blue;
-    height: 250px;
+.section-header .star{
+    margin-bottom: 2rem;
 }
-
+.section-header .star i{ 
+    color: black;
+}
+.section-header .star:before{
+    background-color: black;
+}
+.section-header .star:after{
+    background-color: black;
+}
+.section-header h2{
+    font-size: 50px;
+    text-transform: uppercase ;
+}
 /*ABOUT CONTENT*/
 .about-content{
     margin-bottom: 1rem;
 }
+.about .star i{
+    color: white;
+}
+.about .star::before{
+    background-color: white;
+}
+.about .star::after{
+    background-color: white;
+}
+.btn_download{
+    background-color: #1abc9c ;
+    border-color: white;
+}
+.btn_download i{
+    color: white;
 
+}
+.btn_download a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    margin-left: 3px;
+    text-transform: lowercase;
+}
 /*FOOTER*/
 footer{
     color: white;
